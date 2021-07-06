@@ -1,0 +1,35 @@
+show Databases; = 데이터를 보여줌
+select * from `city` limit;
+
+MySql 
+
+port : 3306
+web : 80
+
+보통 80 포트 
+google.com:80
+
+CRUD 
+c : create
+r : read
+u : update
+d : delete
+
+빨리 노가다를 끝낼 수 있는 에디터가 있음 찾아서 연습하면
+시간을 단축 시킬 수 있음
+edit++
+notepad
+
+면접할 때 많이 물어보는거
+
+클러스터드 인덱스 논클러스터드 인덱스 차이
+
+클러스터드 인덱스 : pk 테이블 자체가 정렬되어 있음
+
+논클러스터드 인덱스 : 테이블과 별도로 존재
+
+// 실행 계획을 내가 원하는 것으로 바꿀 때
+select STRAIGHT JOIN A.*, B.*
+FROM 테이블1 AS A
+JOIN 테이블2 AS B
+ON ...
